@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert paund</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<script src="index.js"></script>
+
+<body style="background-color: rgb(237, 206, 166);">
+<h1 class ="heading"><b>Weight Converter</b></h1>
+<h2 class=" head2"><b>Type a value in the Pounds field to convert the value to Kilograms:</b></h2>
+<h2 class="head4">
+  <label><b>Pounds</b></label>
+  <input id="inputPounds" type="number" placeholder="Pounds" oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
+</h2>
+<h3 class= "head3"><b>Kilograms: <span id="outputKilograms"></b></span></h3>
+</body>
+</html>
